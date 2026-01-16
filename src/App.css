@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://cdn.pixabay.com/photo/2017/10/12/22/43/stock-exchange-2849931_1280.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-class-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-class {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label-class {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+.input-class {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.currency-container {
+  margin-top: 10px;
+}
+
+.currency-type {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.select-class {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.swap-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.swap-button:hover {
+  background: #0056b3;
+}
+
+.convert-button {
+  width: 100%;
+  padding: 14px;
+  background: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.convert-button:hover {
+  background: #003f7f;
+}
